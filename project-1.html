@@ -4,18 +4,19 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="css/all.min.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./responsive.css">
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
-
+<!-- 
     boot 
     res 
-    style.css 
+    style.css  -->
 
   </head>
   <body>
@@ -53,46 +54,64 @@
               our <span style="color: #14ae65"> advance tool </span>
             </h1>
           </div>
-          <div class="list">
-            <ul>
-              <li class="t1" style="background-color: rgb(233, 255, 255)">
-                <i class="fa-brands fa-facebook-f"></i>
-                <p>Filpkart Label crop</p>
-              </li>
-              <li class="t1" style="background-color: rgb(255, 233, 233)">
-                <i class="fa-brands fa-amazon"></i>
-                <p>amazon Label crop</p>
-              </li>
-              <li class="t1" style="background-color: rgb(255, 254, 233)">
-                <i class="fa-brands fa-facebook-f"></i>
-                <p>Filpkart Label crop</p>
-              </li>
-              <li class="t1" style="background-color: rgb(233, 255, 255)">
-                <i class="fa-brands fa-facebook-f"></i>
-                <p>Filpkart Label crop</p>
-              </li>
-              <li class="t1" style="background-color: rgb(233, 255, 255)">
-                <i class="fa-brands fa-facebook-f"></i>
-                <p>Filpkart Label crop</p>
-              </li>
-              <li class="t1" style="border: 1px solid lightgray">
-                <i class="fa-solid fa-ellipsis" style="padding-left: 8px"></i>
-                <p>more</p>
-                <ul class="t2">
-                  <li>hello</li>
-                  <li>hello</li>
-                  <li>hello</li>
-                  <li>hello</li>
+          <div class="main_list_1 w-100">
+            <div class="list w-80">
+                <ul>
+                    <li class="t1 bg-lightblue">
+                        <i class="fa-brands fa-facebook-f"></i> 
+                        <p>Flipkart Label crop</p>
+                    </li>
+                    <li class="t1 bg-lightred">
+                        <i class="fa-brands fa-amazon"></i>
+                        <p>Amazon Label crop</p>
+                    </li>
+                    <li class="t1 bg-lightyellow">
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <p>Flipkart Label crop</p>
+                    </li>
+                    <li class="t1 bg-lightblue">
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <p>Flipkart Label crop</p>
+                    </li>
+                    <li class="t1 bg-lightblue">
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <p>Flipkart Label crop</p>
+                    </li>
+                    <li class="t1 bg-lightyellow">
+                      <i class="fa-brands fa-facebook-f"></i>
+                      <p>Flipkart Label crop</p>
+                  </li>
+                  <li class="t1 bg-lightblue">
+                      <i class="fa-brands fa-facebook-f"></i>
+                      <p>Flipkart Label crop</p>
+                  </li>
+                  <li class="t1 bg-lightblue">
+                      <i class="fa-brands fa-facebook-f"></i>
+                      <p>Flipkart Label crop</p>
+                  </li>
                 </ul>
-              </li>
-              <li
-                class="t1"
-                style="border: 1px solid lightgray; padding-top: 30px"
-              >
-                <i class="fa-solid fa-gear"></i>
-              </li>
-            </ul>
-          </div>
+            </div>
+            <div class="w-20">
+
+              <ul class="second_ul">
+                <li class="t3">
+                  <i class="fa-solid fa-ellipsis"></i>
+                  <p>More</p>
+                  <ul class="t2">
+                    <li>Hello</li>
+                    <li>Hello</li>
+                    <li>Hello</li>
+                    <li>Hello</li>
+                  </ul>
+                </li>
+                <li class="t3 gear-icon">
+                  <i class="fa-solid fa-gear"></i>
+                </li>
+              </ul>
+            </div>
+        </div>
+        
+
           <div class="input">
             <div class="box3">
               <i class="fa-solid fa-cloud-arrow-up"></i>
@@ -121,8 +140,7 @@
                 </div>
                 <div class="box_3">
                   <div class="box_4">
-                    <!-- <div class="uploading_line">
-                      <div class="fill_line"></div> -->
+                    <div class="uploading_line">
                     </div>
                   </div>
                   <div class="box_4">70%</div>
@@ -135,128 +153,70 @@
     </div>
 
     <!-- Proceed Files -->
-    <div class="w-100 proceed_files">
+    <div class="w-100">
       <div class="w-1140">
-        <div class="title">
-          Proceed Files
-        </div>
-        <div class="table_title">
-          <p>In last 30 minutes</p>
-          <table class="main_table">
-            <tr>
-              <td>
-                <div class="box_9">
-                  <i class="fa-solid fa-file-pdf"></i>
-                  <div class="text">
-                    Tech requirements.pdf <br />
-                    <span style="color: #4B596A;">523kb</span>
-                  </div>
-                  <div class="date">
-                    12 sept 2024
-                  </div>
-                  <div class="btn_box">
-                    <button class="btn3">
-                      <i class="fa-solid fa-pencil"></i>Edit
-                    </button>
-                    <button class="btn3">
-                      <i class="fa-solid fa-trash"></i>Delete
-                    </button>
-                  </div>
-                </div>
+        <h2 class="title">Proceed Files</h2>
+        <div class="main_table">
+        <p class="subtitle">In last 30 minutes</p>
+        <div class="w-custome">
+        <table class="main_table_1">
+          <thead>
+            <!-- <tr>
+              <td>Pdf</td>
+              <th>File</th>
+              <th>Size</th>
+              <th>Date</th>
+              <th>Actions</th>
+            </tr> -->
+          </thead>
+          <tbody class="tbody">
+            <tr class="tr1">
+              <td><i class="fa-solid fa-file-pdf"></i></td>
+              <td> Tech requirements.pdf</td>
+              <td>523kb</td>
+              <td>12 Sept 2024</td>
+              <td class="btn_box" >
+                <button class="btn3 "><i class="fa-solid fa-pencil"></i> Edit</button>
+                <button class="btn3 "><i class="fa-solid fa-trash"></i> Delete</button>
               </td>
             </tr>
             <tr>
-              <td>
-                <div class="box_9">
-                  <i class="fa-solid fa-file-pdf"></i>
-                  <div class="text">
-                    Tech requirements.pdf <br />
-                    <span style="color: #4B596A;">523kb</span>
-                  </div>
-                  <div class="date">
-                    12 sept 2024
-                  </div>
-                  <div class="btn_box">
-                    <button class="btn3">
-                      <i class="fa-solid fa-pencil"></i>Edit
-                    </button>
-                    <button class="btn3">
-                      <i class="fa-solid fa-trash"></i>Delete
-                    </button>
-                  </div>
-                </div>
+              <td><i class="fa-solid fa-file-pdf"></i></td>
+              <td> Tech requirements.pdf</td>
+              <td>523kb</td>
+              <td>12 Sept 2024</td>
+              <td class="btn_box">
+                <button class="btn3 "><i class="fa-solid fa-pencil"></i> Edit</button>
+                <button class="btn3 "><i class="fa-solid fa-trash"></i> Delete</button>
               </td>
             </tr>
             <tr>
-              <td>
-                <div class="box_9">
-                  <i class="fa-solid fa-file-pdf"></i>
-                  <div class="text">
-                    Tech requirements.pdf <br />
-                    <span style="color: #4B596A;">523kb</span>
-                  </div>
-                  <div class="date">
-                    12 sept 2024
-                  </div>
-                  <div class="btn_box">
-                    <button class="btn3">
-                      <i class="fa-solid fa-pencil"></i>Edit
-                    </button>
-                    <button class="btn3">
-                      <i class="fa-solid fa-trash"></i>Delete
-                    </button>
-                  </div>
-                </div>
+              <td><i class="fa-solid fa-file-pdf"></i></td>
+              <td> Tech requirements.pdf</td>
+              <td>523kb</td>
+              <td>12 Sept 2024</td>
+              <td class="btn_box">
+                <button class="btn3 "><i class="fa-solid fa-pencil"></i> Edit</button>
+                <button class="btn3 "><i class="fa-solid fa-trash"></i> Delete</button>
               </td>
             </tr>
             <tr>
-              <td>
-                <div class="box_9">
-                  <i class="fa-solid fa-file-pdf"></i>
-                  <div class="text">
-                    Tech requirements.pdf <br />
-                    <span style="color: #4B596A;">523kb</span>
-                  </div>
-                  <div class="date">
-                    12 sept 2024
-                  </div>
-                  <div class="btn_box">
-                    <button class="btn3">
-                      <i class="fa-solid fa-pencil"></i>Edit
-                    </button>
-                    <button class="btn3">
-                      <i class="fa-solid fa-trash"></i>Delete
-                    </button>
-                  </div>
-                </div>
+              <td><i class="fa-solid fa-file-pdf"></i></td>
+              <td> Tech requirements.pdf</td>
+              <td>523kb</td>
+              <td>12 Sept 2024</td>
+              <td class="btn_box">
+                <button class="btn3 "><i class="fa-solid fa-pencil"></i> Edit</button>
+                <button class="btn3 "><i class="fa-solid fa-trash"></i> Delete</button>
               </td>
             </tr>
-            <tr>
-              <td>
-                <div class="box_9">
-                  <i class="fa-solid fa-file-pdf"></i>
-                  <div class="text">
-                    Tech requirements.pdf <br />
-                    <span style="color: #4B596A;">523kb</span>
-                  </div>
-                  <div class="date">
-                    12 sept 2024
-                  </div>
-                  <div class="btn_box">
-                    <button class="btn3">
-                      <i class="fa-solid fa-pencil"></i>Edit
-                    </button>
-                    <button class="btn3">
-                      <i class="fa-solid fa-trash"></i>Delete
-                    </button>
-                  </div>
-                </div>
-              </td>
-            </tr>
-          </table>
-        </div>
+          </tbody>
+        </table>
+      </div>
+      </div>
       </div>
     </div>
+    
 
     <!-- Key Features -->
     <div class="w-100 key_feature" id="key_feature">
